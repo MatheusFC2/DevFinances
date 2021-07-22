@@ -1,0 +1,144 @@
+/* ----------- Global ----------- */
+:root {
+    --dark-blue: #363f5f;
+    --white: #fff;
+    --dark-green: #2d4a22;
+    --ice-white: #f0f2f5;
+    --total-green: #49aa26;
+    --light-gray: #969cb3
+}
+
+* {
+    margin: 0; /* para tirar a margem de itens na pagina */
+    padding: 0; /* para tirar a padding de itens na pagina */
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--ice-white); /* trocando a cor de fundo da pagina */
+    font-family: 'Poppins', sans-serif; /* trocando a fonte do body */
+}
+
+.container {
+    width: min(90vw, 800px);
+    margin: auto; /* vai ajudar a centralizar tudo no meio da pagina */
+}
+
+/* ----------- Titles ----------- */
+
+h2 {
+    margin-top: 3.2rem;
+    margin-bottom: 0.8rem;
+    color: var(--dark-blue);
+
+    font-weight: normal;
+}
+
+/* ----------- Header ----------- */
+
+header { 
+    background-color: var(--dark-green); /* adicionando background verde no header para deixar bonito */
+    padding: 2rem 0 10rem; /* tamanho do background verde do header */
+    text-align: center; /* alinhando o texto no centro da pagina */
+}
+
+#logo { 
+    color: var(--white); /* mudando a cor da escrita dentro do header */
+    font-weight: 300; /* trocando tamanho da font deixando ela fina */
+}
+
+/* ----------- Balance ----------- */
+
+#balance {
+    margin-top: -8rem;
+}
+
+#balance h2 {
+    color: var(--white);
+    margin-top: 0;
+}
+
+/* ----------- Card ----------- */
+
+.card { 
+    background-color: var(--white);
+    padding: 1.5rem 2rem;
+    border-radius: 0.25rem;
+
+    margin-bottom: 2rem;
+    
+    color: var(--dark-blue);
+}
+
+.card h3 { 
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.card p { 
+    font-size: 2rem; /* tamanho da font */
+    line-height: 3rem; /* separação de linha */
+
+    margin-top: 1rem;
+}
+
+.card.total { 
+    background-color: var(--total-green);
+    color: var(--white);
+}
+
+/* ----------- Table ----------- */
+
+#data-table {
+    width: 100%;
+    border-spacing: 0 0.5rem;
+    color: var(--light-gray)
+}
+
+table thead tr th:first-child,
+table tbody tr td:first-child { 
+    border-radius: 0.25rem 0 0 0.25rem; /* arredondar bordas esquerdas nos itens de transições */
+}
+
+table th { 
+    background-color: var(--white);
+
+    font-weight: normal;
+    padding: 1rem 2rem;
+    
+    text-align: left;
+
+}
+
+table tbody tr {
+    opacity: 0.7;
+}
+
+table tbody tr:hover {
+    opacity: 1;  
+}
+
+table tbody td {
+    background-color: var(--white);
+    padding: 1rem 2rem;
+}
+
+td.description {
+    color: var(--dark-blue)
+}
+
+td.income {
+    color: #12a454;
+}
+
+td.expense {
+    color: #e92929;
+}
+/* ----------- Footer ----------- */
+
+footer {
+    text-align: center; /* centralizar a escrita do footer no centro da pagina */ 
+    padding: 4rem 0 2rem;
+    color: var(--dark-blue);
+    opacity: 0.6;
+}
