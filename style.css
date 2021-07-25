@@ -19,6 +19,18 @@ body {
     font-family: 'Poppins', sans-serif; /* trocando a fonte do body */
 }
 
+.sr-only { /* esta escondendo h2 balanço e transições para leitores de texto lerem, acessiblidade */
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0; 
+}
+
 .container {
     width: min(90vw, 800px);
     margin: auto; /* vai ajudar a centralizar tudo no meio da pagina */
@@ -33,6 +45,15 @@ h2 {
 
     font-weight: normal;
 }
+
+/* ----------- Links & Buttons ----------- */
+
+a { 
+    color: #3dd705;
+    text-decoration: none;
+}
+
+a;
 
 /* ----------- Header ----------- */
 
@@ -73,6 +94,10 @@ header {
 .card h3 { 
     font-weight: normal;
     font-size: 1rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .card p { 
