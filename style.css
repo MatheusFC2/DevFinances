@@ -121,10 +121,17 @@ header {
 
 /* ----------- Table ----------- */
 
+#transaction { 
+    display: block;
+    width: 100%;
+
+    overflow-x: auto;
+}
+
 #data-table {
     width: 100%;
     border-spacing: 0 0.5rem;
-    color: var(--light-gray)
+    color: var(--light-gray);
 }
 
 table thead tr th:first-child,
@@ -174,8 +181,23 @@ td.expense {
 /* ----------- Footer ----------- */
 
 footer {
-    text-align: center; /* centralizar a escrita do footer no centro da pagina */ 
+    text-align: center; /* centralizar wa escrita do footer no centro da pagina */ 
     padding: 4rem 0 2rem;
     color: var(--dark-blue);
     opacity: 0.6;
+}
+
+/* ----------- Responsive ----------- */
+
+@media (min-width: 800px) {
+    html { 
+        font-size: 87.5%;
+    }
+
+    #balance {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+    }
+
 }
