@@ -22,7 +22,7 @@
 <br>
 
 <p align="center">
-  <img alt="dev.finances" src="" width="20%">
+  <img alt="dev.finances" src="https://raw.githubusercontent.com/MatheusFC2/DevFinances/8c9109075e60ae9b3ffcebf98cf3ac3b6c4c9d3b/assets/logo.svg" width="20%">
 </p>
 <br>
 
