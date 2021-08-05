@@ -3,7 +3,7 @@
 </h1>
 
 <h1 align="center">
-  <img alt="dev.finances" title="dev.finances" src="" width="50%" />
+  <img alt="dev.finances" title="dev.finances" src="https://raw.githubusercontent.com/MatheusFC2/DevFinances/master/assets/logo-readme.png" width="50%" />
 </h1>
 
 <p align="center">
