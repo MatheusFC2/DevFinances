@@ -26,6 +26,8 @@
 </p>
 <br>
 
+![image](https://user-images.githubusercontent.com/69259671/151673024-84791497-1066-4266-923a-10abdb3afb42.png)
+
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
